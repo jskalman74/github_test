@@ -251,6 +251,7 @@ int main(int argc, char** argv)
 					 } 
 				 break;   	
 
+
 				 
 				   	
 	  	     	case normal: // place a box on the conveyor and place a box on the new pallet from conveyor				   			   	     		  
