@@ -252,6 +252,8 @@ int main(int argc, char** argv)
 				 break;   	
 
 
+ //kalman
+
 				 
 				   	
 	  	     	case normal: // place a box on the conveyor and place a box on the new pallet from conveyor				   			   	     		  
