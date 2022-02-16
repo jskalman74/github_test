@@ -212,7 +212,8 @@ class Simulation{
 			}	
 };
         
-       
+
+	   
 int main(int argc, char** argv) 
 { 	    
 	vector<int> data = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0};//20 box datae	of A pallet	
@@ -244,10 +245,13 @@ int main(int argc, char** argv)
 					   depalletizer.place_conveyor(box, C);  
 			   	     }
 				     else
+					 	
 				     {
 				       simul.set_state(normal);	//if conveyor is full then goto normal, palletizer can pica a box from conveyor
 					 } 
 				 break;   	
+
+				 
 				   	
 	  	     	case normal: // place a box on the conveyor and place a box on the new pallet from conveyor				   			   	     		  
 				     if(!C.is_full() && !A.is_empty()) // load a box on the conveyor from A pallet 	   			
