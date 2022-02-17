@@ -20,7 +20,7 @@ enum box_size{
 	nosize 
 };
 
-
+//kalman filter
 //Pallet class for pallet and conveyor queue loading boxes
 class Pallet{ 
 	public:
