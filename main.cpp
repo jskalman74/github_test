@@ -12,6 +12,7 @@ enum robot_status{
 	placing	 //placing a box on the pallet
 };
 
+
 //box size
 enum box_size{
 	small, //small box
@@ -216,7 +217,7 @@ class Simulation{
 	   
 int main(int argc, char** argv) 
 { 	    
-	vector<int> data = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0};//20 box datae	of A pallet	
+	int data[20] = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0};//20 box datae	of A pallet	
 	Pallet A(20), B_small(10), B_large(10);	// Box will move from A pallet to B_small and B_large
 	Pallet C(6); // Conveyor can carry maximum 6 boxes	
 	Robot depalletizer(idle, nosize, false), palletizer(idle, nosize, false); // two robots are needed	
